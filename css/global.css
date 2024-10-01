@@ -27,13 +27,17 @@
 
     /* Colors */
     --body-background-color: #fff;
-    --heading-text-color: ##323232;
+    --heading-text-color: #323232;
     --sub-heading-text-color: #949494;
     --secondry-text-color: #a16abc;
     --play-button-color: #a545ee;
     --play-button-background-color: #e8cff7;
     --list-bullet-color: #831cd1;
     --header-icon-color: #aa8e8e;
+    --search-input-color: #323232;
+    --search-input-background-color: #f4f4f4;
+    --search-input-icon-color: #a545ee;
+
 
     /* Radii */
     --base-border-radius: 10px;

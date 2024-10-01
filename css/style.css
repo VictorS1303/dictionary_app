@@ -28,3 +28,30 @@ header
         cursor: pointer;
     }
 }
+
+.container.search-input-container
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--search-input-background-color);
+    border-radius: var(--base-border-radius);
+
+    & input
+    {
+        font-family: inherit;
+        color: var(--search-input-color);
+        background-color: transparent;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    & i
+    {
+        font-size: 20px;
+        color: var(--search-input-icon-color);
+    }
+}
