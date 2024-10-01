@@ -1,0 +1,30 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    & div
+    {
+        display: inherit;
+        align-items: inherit;
+        gap: 15px;
+    }
+
+    & i
+    {
+        font-size: var(--icon-font-size);
+        color: var(--header-icon-color);
+    }
+
+    & select
+    {
+        font-family: inherit;
+        background-color: transparent;
+        font-size: var(--select-font-size);
+        min-width: 130px;
+        width: fit-content;
+        cursor: pointer;
+    }
+}

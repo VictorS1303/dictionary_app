@@ -21,7 +21,10 @@
     --heading-five-font-size: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
     --heading-six-font-size: clamp(0.075rem, -0.4424rem + 2.587vw, 1.5625rem);
     --paragraph-font-size: clamp(0.8333rem, 0.7754rem + 0.2899vw, 1rem);
-        
+    --icon-font-size: clamp(1.5rem, 1.4783rem + 0.1087vw, 1.5625rem);  
+    --select-font-size: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+
+
     /* Colors */
     --body-background-color: #fff;
     --heading-text-color: ##323232;
@@ -30,6 +33,7 @@
     --play-button-color: #a545ee;
     --play-button-background-color: #e8cff7;
     --list-bullet-color: #831cd1;
+    --header-icon-color: #aa8e8e;
 
     /* Radii */
     --base-border-radius: 10px;
@@ -43,6 +47,7 @@ body
 {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--body-background-color);
+    padding: 20px 40px;
 }
 
 header
@@ -106,4 +111,10 @@ li
         margin-right: 25px;
         font-size: 40px;
     }
+}
+
+button
+{
+    background-color: transparent;
+    cursor: pointer;
 }
