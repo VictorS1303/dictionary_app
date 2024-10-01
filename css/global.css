@@ -38,7 +38,7 @@
     --search-input-background-color: #f4f4f4;
     --search-input-icon-color: #a545ee;
     --phonetics-color: #a162cc;
-
+    --divider-background-color: #ccc;
 
     /* Radii */
     --base-border-radius: 10px;
@@ -52,6 +52,10 @@ body
 {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--body-background-color);
+}
+
+main, header
+{
     padding: 20px 40px;
 }
 
@@ -122,4 +126,17 @@ button
 {
     background-color: transparent;
     cursor: pointer;
+}
+
+@media screen and (min-width: 768px)
+{
+    main
+    {
+        padding: 40px 120px;
+    }
+
+    header
+    {
+        padding: 20px 120px 0 120px;
+    }
 }

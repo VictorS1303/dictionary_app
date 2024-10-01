@@ -97,3 +97,20 @@ section.pronunciation
         }
     }
 }
+
+/* Section: Word Class */
+section.word-class
+{
+    font-family: inherit;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+    margin-top: 40px;
+
+    & span
+    {
+        font-style: italic;
+        font-weight: 800;
+    }
+}

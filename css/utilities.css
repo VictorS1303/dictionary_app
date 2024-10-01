@@ -1,6 +1,13 @@
 .divider
 {
     width: 1px;
-    background-color: #ccc;
+    background-color: var(--divider-background-color);;
     height: 30px;
+}
+
+.section-divider
+{
+    height: 1px;
+    background-color: var(--divider-background-color);
+    width: 100%;
 }
