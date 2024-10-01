@@ -55,3 +55,45 @@ header
         color: var(--search-input-icon-color);
     }
 }
+
+/* Section: Pronounce */
+section.pronunciation
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+
+    & > div
+    {
+        & h1
+        {
+            color: var(--heading-text-color);
+        }
+
+        & span
+        {
+            display: inline-block;
+            margin-top: 10px;
+            color: var(--phonetics-color);
+        }
+    }
+
+    & button
+    {
+        height: 50px;
+        min-width: 50px;
+        width: fit-content;
+        border-radius: calc(var(--base-border-radius) * 5);
+        color: var(--pronounce-button-color);
+        background-color: var(--pronounce-button-background-color);
+        font-size: calc(var(--icon-font-size) / 1.5);
+
+        &.is-pronouncing
+        {
+            opacity: .4;
+            cursor: not-allowed;
+        }
+    }
+}
